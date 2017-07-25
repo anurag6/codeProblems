@@ -1,0 +1,9 @@
+Exception: STATUS_ACCESS_VIOLATION at eip=0040155C
+eax=61026ED3 ebx=0028CC9C ecx=4FE90FCC edx=4FE9108C esi=00000065 edi=0000006F
+ebp=0028CC78 esp=0028CC20 program=C:\Users\aporripireddi\.babun\cygwin\home\aporripireddi\testcodes\problems\june_circuits\test.out, pid 14252, thread main
+cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
+Stack trace:
+Frame     Function  Args
+0028CC78  0040155C (00000001, 0028CC9C, 80010100, 610083CF)
+0028CD28  6100842E (00000000, 0028CD84, 61007530, 00000000)
+End of stack trace
